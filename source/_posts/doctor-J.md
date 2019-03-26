@@ -1,10 +1,10 @@
 ---
-title: doctor J
+title: css
 date: 2019-03-25 14:16:51
 tags:
 ---
-# 哈哈哈哈 大傻子doctor
-{% codeblock %}
-    const { selectedSizeList } = this.props
-    const maxSizes = getMaxSizes(selectedSizeList)
-{% endcodeblock %}
+## 文档流
+  普通文档流：块级元素，从左上角开始，从上到下垂直地依次分配空间层叠（Stack），并且独占一行；行内元素从容器的顶端开始，一个接一个地水平排列。
+  脱离文档流：使用 float 和 position：absolute.
+  float：其他盒子会无视这个文本，但是其他盒子内的子元素（文本及图片）依然会为这个元素让出位置。
+  position：absolute : 其他盒子以及内部元素都会无视它。
