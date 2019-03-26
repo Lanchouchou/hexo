@@ -78,4 +78,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git #部署方式
+  git: https://github.com/Lanchouchou/hexo.git #git 仓库
+  branch: run-page #部署分支
+
